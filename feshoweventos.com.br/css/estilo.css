@@ -1,0 +1,135 @@
+/* Definições */
+body{
+    color: white;
+    background: #222222;
+}
+
+p{
+    text-align: justify;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.section-title{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-subtitle{
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.read-more{
+	padding: 5px;
+	border: 1px solid white;
+}
+
+/* Menu topo */
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url("../imagens/logo.svg");
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent {
+    background: rgba(0, 0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-link{
+    color: white;
+    width: 120;
+    text-align: center;
+}
+
+.menu-link-participate:hover{
+    background: #0e11da;
+}
+
+.menu-link-guests:hover{
+    background: #5f18c2;
+}
+
+.menu-link-gallery:hover{
+    background: #1c033f;
+}
+
+/* Capa */
+.cover{
+    background: url('../imagens/teste.jpg');
+    background-size: cover;
+    height: 1000px;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-text{
+    max-width: 500px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.cover-text > p {
+    text-align: center;
+}
+
+/* Participar */
+.participate{
+    background: #0e11da;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Convidados */
+.guests{
+    background: #5f18c2;
+}
+
+.carousel {
+    display: none;
+}
+
+@media (max-width: 790px) {
+    .carousel {
+        display: block;
+        text-align: center;
+    }
+    .event-guests {
+        display: none;
+    }
+}
+
+/* Galeria */
+.gallery{
+    background: #1c033f;
+}
