@@ -8,7 +8,7 @@ p{
     text-align: justify;
 }
 
-hr { 
+hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -16,6 +16,10 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+.container{
+    padding: 15px 0px 30px 0px;
 }
 
 .section-title{
@@ -59,22 +63,22 @@ nav.navbar-transparent {
 }
 
 .menu-link-participate:hover{
-    background: #0e11da;
+    background: #3438bd;
 }
 
 .menu-link-guests:hover{
-    background: #5f18c2;
+    background: #530b57;
 }
 
 .menu-link-gallery:hover{
-    background: #1c033f;
+    background: #22072a;
 }
 
 /* Capa */
 .cover{
     background: url('../imagens/teste.jpg');
     background-size: cover;
-    height: 500px;
+    height: 600px;
     background-repeat:no-repeat;
     display: flex;
     justify-content: center;
@@ -93,7 +97,7 @@ nav.navbar-transparent {
 
 /* Participar */
 .participate{
-    background: #0e11da;
+    background: #3438bd;
 }
 
 .map-responsive{
@@ -112,7 +116,11 @@ nav.navbar-transparent {
 
 /* Convidados */
 .guests{
-    background: #5f18c2;
+    background: #530b57;
+}
+
+.carousel-item{
+    padding: 10px 0px 20px 0px;
 }
 
 .carousel{
@@ -135,5 +143,18 @@ nav.navbar-transparent {
 
 /* Galeria */
 .gallery{
-    background: #1c033f;
+    background: #22072a;
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+}
+
+.card{
+    margin: 15px;
+}
+
+.card-img{
+    background-size: contain;
 }
